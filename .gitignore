@@ -1,0 +1,97 @@
+# ================================
+# Environment Variables / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+*.env
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.egg-info/
+dist/
+build/
+
+# ================================
+# FastAPI / Uvicorn
+# ================================
+*.log
+
+# ================================
+# Node / Frontend
+# ================================
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Vite
+dist/
+
+# React
+.cache/
+
+# ================================
+# Build / Coverage
+# ================================
+coverage/
+*.tsbuildinfo
+
+# ================================
+# IDE / Editors
+# ================================
+.vscode/
+.idea/
+*.iml
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Temporary Files
+# ================================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ================================
+# Database / Local Files
+# ================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ================================
+# Secrets / Certificates
+# ================================
+*.pem
+*.key
+*.crt
+
+# ================================
+# Python Environment Files
+# ================================
+.python-version
