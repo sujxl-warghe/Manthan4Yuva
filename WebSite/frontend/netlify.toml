@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  # The Netlify Next.js plugin will handle the correct output and serverless functions.
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
