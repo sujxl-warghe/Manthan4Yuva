@@ -35,5 +35,9 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "@netlify/plugin-nextjs": "^6.0.0"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
